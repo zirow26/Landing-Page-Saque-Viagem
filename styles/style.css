@@ -1,0 +1,417 @@
+*{
+    color:rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 2em;
+}
+body,html{
+    width:100vw;
+    height:100%;
+}
+body{
+    background-color:rgb(10, 177, 113);
+    overflow-x: visible;
+    padding:0;
+}
+header{
+    display: flex;
+    background-color:white;
+    height:15vh;
+    flex-wrap: wrap;
+    padding: 0 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header nav{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0;
+    margin:0;
+    gap: 0 4vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a{
+    list-style: none; 
+    width:auto;
+    height: 100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(227, 250, 250);
+}
+.nav-bar a:hover{
+    background-color: lightgreen;
+
+}
+header li{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buynow {
+    width:auto;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.buynow button{
+    background-color: rgb(31, 236, 158);
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(34, 94, 6);
+    border: solid rgb(34, 94, 6) 2px;
+    border-radius: 10px;
+}
+.logo{
+    height:100%;
+    width:auto;
+    padding: 0;
+    margin: 0;
+}
+.slidershow{
+    display: flex;
+}
+.slider{
+    overflow-x: hidden;
+    width: 100%;
+    position:relative;
+}
+.slide{
+    display:flex;
+    width: fit-content;
+}
+.slide img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+.mexeslide{
+    position:absolute;
+    width:3%;
+    height: 7%;
+    top:40%;
+    border-radius: 50%;
+    border: none;
+}
+.mexeslide:hover{
+    background-color: rgb(240, 243, 61);
+}
+.mexeslide:first-of-type{
+    left:0;
+    
+}
+.mexeslide:last-of-type{
+    right:0;
+    
+}
+
+
+
+.listprod{
+    width:100%;
+    height:15vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.listprod nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    height:100%;
+    padding:0 5%;
+    flex-wrap: wrap;
+}
+.listprod a{
+    height:100%;
+    width:10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 250, 250);
+
+}
+.listprod a:hover{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.listprod li{
+    width:100%;
+    height:100%;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.backofertas{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 1%;
+    gap:1%;
+    box-sizing: border-box;
+    background: linear-gradient(to left, rgba(241, 198, 5, 0.973), rgba(3, 0, 150, 0.842));
+}
+
+.ofertas{
+    width:100%;
+    max-width: 900vw;
+    height:auto;
+    overflow-x: visible;
+    display:flex;
+    gap:2%;
+    position:relative;
+    left: 0%;
+}
+.rolagem{
+    width:1.5%;
+    height:auto;
+}
+
+.produto img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.produto{
+    min-width: 23.5%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1% 1%;
+    margin:0.5% 0;
+    text-align: center;
+}
+.imgprod{
+    width:100%;
+    height:100%;
+}
+.buyprod{
+    width:auto;
+    height:auto;
+}
+
+.mundial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 70, 158);
+    padding: 5% 0;
+
+}
+.avaliacaoimg{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.avaliacoes{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0 1%;
+    padding: 2%;
+}
+.avaliacoes img{
+    width: 32%;
+    height: auto;
+}
+
+dialog{
+    position:fixed;
+    width:30vw;
+    height:auto;
+    margin:auto;
+    padding:5%;
+}
+dialog img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto 5% auto;
+}
+dialog button{
+    background-color: rgb(31, 236, 158);
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(34, 94, 6);
+    border: solid rgb(34, 94, 6) 2px;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin:0 auto;
+}
+dialog::backdrop{
+    background: rgba(0,0,0,0.8);
+}
+
+.rdp{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(59, 56, 56);
+    justify-content: space-evenly;
+}
+.rdp a{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rdp section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rdp h5{
+    color:white;
+}
+.rdp h2{
+    color:white;
+}
+.respon{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:10%
+}
+
+.respons{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:10%
+}
+
+.icon{
+    width:1vw;
+    height:2vh;
+}
+.icone{
+    width:4vw;
+    height:8vh;
+}
+.pagamento{
+    display:flex;
+    flex-direction: column;
+    gap:0.5%;
+}
+
+@media (max-width:600px){
+   header{
+        flex-direction: column;
+        height:auto;
+        gap: 2%;
+    }
+    header nav{
+        gap: 5%;
+    }
+    header a{
+        font-size: 16px;
+        width: auto;
+        padding: 5px 10px;
+    }
+    .logo{
+        height:auto;
+        width:50%;
+    }
+    .banner{
+        height:20vh;
+        width:100%;
+    }
+    .listprod{
+        flex-wrap:wrap;
+        height:auto;
+    }
+    .listprod a{
+        height:100%;
+        width:30%;
+    }
+    .ofertas{
+        height:auto;
+        flex-wrap: wrap;
+        position: static;
+    }
+    .produto{
+        min-width: 100%;
+        padding: 3% 3%;
+        margin:1% 0;
+    }
+    .produto img{
+        width: 60%;
+    }
+    .rolagem{
+        display: none;
+    }
+    dialog{
+        width:75vw;
+    }
+    .avaliacoes{
+        flex-direction: column;
+        gap: 1vh;
+    }
+    .avaliacoes img{
+        width: 100%;
+        height: auto;
+    }
+    .mundial img{
+        width: 80%;
+    }
+    .rdp{
+        flex-direction: column;
+        display:flex;
+        gap:5%;
+    }
+    .icon{
+        width:5vw;
+        height:5vh    
+    }
+    .icone{
+        width:20vw;
+        height: 10vh;
+    }
+    .respon{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
