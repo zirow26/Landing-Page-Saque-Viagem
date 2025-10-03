@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cimatec JR</title>
+    <link rel="stylesheet" href="styles\style.css">
+    <script src="scripts\script.js" defer></script>
+    <script src="scripts\modal.js" ></script>
+</head>
+<body>
+<header>
+    <img src="Assets\Logo.png" alt="Logo Cimatec JR" class="logo">
+    <nav class="nav-bar">
+        <a href="index.html"><li>Pagina Inicial</li></a>
+        <a href="#ofertasback"><li>Ofertas</li></a>
+        <a href="#mundial"><li>Avaliações</li></a>
+    </nav>
+    <a class="buynow" href="https://loja.saqueviagem.com.br"><button >Comprar Agora</button></a>
+</header>
+<section class="slidershow">
+      
+    <div class="slider">
+        <div class="slide">
+            <img src="Assets\banner1.jpg" alt="Banner 1" class="banner" id="slide">
+            <img src="Assets\banner2.jpg" alt="Banner 1" class="banner" id="slide">
+        </div>
+    </div>
+    <button id ="voltaslide" class="mexeslide">&#10094;</button>
+    <button id="nextslide" class="mexeslide">&#10095;</button>
+</section>
+<section class="listprod" >
+    <nav>
+            <a><li>Uniformes</li></a>
+            <a><li>Camisas</li></a>
+            <a><li>Regatas</li></a>
+            <a><li>Bermudas</li></a>
+            <a><li>Manguitos</li></a>
+            <a><li>Joelheiras</li></a>
+            <a><li>Tenis</li></a>
+    </nav>
+</section>
+<section class="backofertas" id="ofertasback">
+    <h1 style="font-size: 1.5em;font-weight: 300;color:white;align-self: center;">Ofertas</h1><br>
+    <section class="ofertas">
+        <div class="prod1 produto">
+            <img src="Assets\camisa-volei-sesi202425-preta-masculina.png" alt="Produto 1">
+            <h2>Camisa Vôlei Sesi-Bauru 2024/25 - Darlan</h2>
+            <h3>20% de desconto</h3>
+            <button class="buyprod" popovertarget="modal-1">Saiba Mais</button>
+        </div>
+        <dialog id="modal-1" popover>
+            <img src="Assets\camisa-volei-sesi202425-preta-masculina.png" alt="Produto 1">
+            <h2>Camisa Vôlei Sesi-Bauru 2024/25 - Darlan <br>Masculino - Preta</h2>
+            <p>Camisa oficial do jogador Darlan Souza no time Sesi Bauru<br><strong>Últimas unidades, sem reposição de estoque!</strong></p>
+            <h4 style="text-decoration: line-through;">R$ 209,90</h4>
+            <h4>R$ 162,88</h4>
+            <a href="https://loja.saqueviagem.com.br/camisa-de-volei-do-sesi-bauru-time-masculino-202425-preta-darlan-masculina"><button>Comprar Agora</button></a>  
+            
+        </dialog>
+
+        <div class="prod1 produto">
+            <img src="Assets\camisa-volei-praia-clube202425-macris-masculina01.png" alt="Produto 1">
+            <h2>Camisa Vôlei de Praia 2024/25 - Macris</h2>
+            <h3>20% de desconto</h3>
+            <button class="buyprod" popovertarget="modal-2">Saiba Mais</button>
+        </div>
+        <dialog id="modal-2" popover>
+            <img src="Assets\camisa-volei-praia-clube202425-macris-masculina01.png" alt="Produto 1">
+            <h2>Camisa de Vôlei Praia clube 2024/25 Preta- Macris - Masculina</h2>
+            <p>Camisa oficial do jogador Macris no time Dentil/Praia Clube<br><strong>Edição especial e limitada!</strong></p>
+            <h4 style="text-decoration: line-through;">R$ 199,90</h4>
+            <h4>R$ 155,12</h4>
+            <a href="https://loja.saqueviagem.com.br/camisa-de-volei-praia-clube-202425-preta-macris-masculina"><button>Comprar Agora</button></a>  
+            
+        </dialog>
+
+        <div class="prod1 produto">
+            <img src="Assets\Camisa_de_volei_china_2023_24.png" alt="Produto 1">
+            <h2>Camisa Vôlei Seleção China 2023/24</h2>
+            <h3>30% de desconto</h3>
+            <button class="buyprod" popovertarget="modal-3">Saiba Mais</button>
+        </div>
+        <dialog id="modal-3" popover>
+            <img src="Assets\Camisa_de_volei_china_2023_24.png" alt="Produto 1">
+            <h2>Camisa de Vôlei da seleção feminina da China 2023/2024</h2>
+            <p>Camisa de vôlei da China, com um design exclusivo desenvolvido pelo Saque Viagem<br><strong>Últimas unidades, sem reposição de estoque!</strong></p>
+            <h4 style="text-decoration: line-through;">R$ 139,90</h4>
+            <h4>R$ 94,99</h4>
+            <a href="https://loja.saqueviagem.com.br/camisa-de-volei-china-202324-vermelha-feminina"><button>Comprar Agora</button></a>  
+        </dialog>
+
+        <div class="prod1 produto">
+            <img src="Assets\Tênis_volei_Asics_Gel-Task.png" alt="Produto 1">
+            <h2>Tênis Asics Gel-Task Preto</h2>
+            <h3>25% de desconto</h3>
+            <button class="buyprod" popovertarget="modal-4">Saiba Mais</button>
+        </div>
+        <dialog id="modal-4" popover>
+            <img src="Assets\Tênis_volei_Asics_Gel-Task.png" alt="Produto 1">
+            <h2>Tênis de Vôlei Asics Gel-Task 3<br>Preto</h2>
+            <p>Você joga vôlei e precisa de um tênis de vôlei? Na loja Saque Viagem, você encontra o tênis de vôlei perfeito para quem joga vôlei.<br><strong>Últimas unidades, sem reposição de estoque!</strong></p>
+            <h4 style="text-decoration: line-through;">R$ 659,90</h4>
+            <h4>R$ 480,08</h4>
+            <a href="https://loja.saqueviagem.com.br/tenis-de-volei-asics-gel-task-3-preto"><button>Comprar Agora</button></a>  
+        </dialog>
+
+        <div class="prod1 produto">
+            <img src="Assets\Moletom_volei.png" alt="Produto 1">
+            <h2>Moletom Voleibol 2022/23</h2>
+            <h3>20% de desconto</h3>
+            <button class="buyprod" popovertarget="modal-5">Saiba Mais</button>
+        </div>
+        <dialog id="modal-5" popover>
+            <img src="Assets\Moletom_volei.png" alt="Produto 1">
+            <h2>Moletom com estampa de voleibol 2022/23<br>Preto e Amarelo - Unissex</h2>
+            <p>Fã que é fã gosta de exibir o seu amor, não é mesmo? Por isso, o Saque Viagem criou esta linha especial de moletons, em homenagem ao esporte que você tanto ama, e que a gente tanto ama também.<br><strong>Últimas unidades, sem reposição de estoque!</strong></p>
+            <h4 style="text-decoration: line-through;">R$ 169,90</h4>
+            <h4>R$ 131,84</h4>
+            <a href="https://loja.saqueviagem.com.br/moletom-voleibol-202223-preto-e-amarelo-unissex"><button>Comprar Agora</button></a>  
+        </dialog>
+
+        <div class="prod1 produto">
+            <img src="Assets\Manguito_vermelho.png" alt="Produto 1">
+            <h2>Manguito de Volei Vermelho TM7</h2>
+            <button class="buyprod" popovertarget="modal-6">Saiba Mais</button>
+        </div>
+        <dialog id="modal-6" popover>
+            <img src="Assets\Manguito_vermelho.png" alt="Produto 1">
+            <h2>Manguito para Vôlei Braço longo TM7<br>Vermelho - Unissex</h2>
+            <p>Melhore o seu desempenho em quadra usando o manguito para vôlei. Ele absorve o suor e minimiza os hematomas no antebraço.<br><strong>Produto usado por jogadores da seleção de vôlei do Brasil e da Superliga.</strong></p>
+            <h4>R$ 174,84</h4>
+            <a href="https://loja.saqueviagem.com.br/manguito-para-volei-brac-longo-tm7-sports-vermelho"><button>Comprar Agora</button></a>  
+        </dialog>
+    </section>
+    <div style="display:flex;flex-direction: row;align-items: center;justify-content: center;">
+        <button onclick="voltarOfertas()" class="rolagem">&#10094;</button>
+        <button onclick="avancarOfertas()" class="rolagem">&#10095;</button>
+    </div>
+</section>
+<section class="mundial" id="mundial">
+    <h1 style="font-size: 1.5em;font-weight: 300;color:white;">Avaliação da empresa</h1><br>
+    <img src="Assets\Avaliacao.png" alt="Avaliação" class="avaliacaoimg"><br>
+    <h1 style="color:white">Opiniões dos clientes</h1>
+    <div class="avaliacoes">
+        <img src="Assets\ava1.png" alt="">
+        <img src="Assets\ava2.png" alt="">
+        <img src="Assets\ava3.png" alt="">
+    </div>
+</section>
+<footer class="rdp">
+    <section class="redes">
+        <h2>Siga nossas redes sociais</h2>
+        <div class="respon">
+            <a href="https://www.instagram.com/saque.viagem/"><img src="Assets\instagram.png" alt="Instagram" class="icon"><h5>Instagram</h5></a>
+            <a href="https://www.facebook.com/saque.viagem"><img src="Assets\facebook.png" alt="Facebook" class="icon"><h5>Facebook</h5></a>
+            <a href="https://www.youtube.com/channel/UC1N_a3S154MEOOCsKAAe54Q"><img src="Assets\youtube.png" alt="YouTube" class="icon"><h5>YouTube</h5></a>
+        </div>
+    </section>
+    <section class="atendimento">
+        <h2>Central de Atendimento</h2>
+        <div class="respons">
+            <a href="https://api.whatsapp.com/send?l=pt_br&phone=5511944955200"><img src="Assets/whatsapp.png" class="icon"><h5>(11) 94495-5200</h5></a>
+            <a href="loja@saqueviagem.com.br"><img src="Assets/email.png" class="icon"><h5>loga@saqueviagem.com.br</h5></a>
+        </div>
+    </section>
+    <section class="pagamento">
+        <h2>Pagamento</h2>
+        <div class="respon">
+            <img src="Assets\visa.png" alt="" class="icone">
+            <img src="Assets\card.png" alt="" class="icone">
+            <img src="Assets\amex.png" alt="" class="icone">
+        </div>
+    </section>
+</footer>
+</body>
+</html>
