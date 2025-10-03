@@ -414,4 +414,8 @@ dialog::backdrop{
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .mexeslide{
+        top:50%;
+        width:5%;
+    }
 }
